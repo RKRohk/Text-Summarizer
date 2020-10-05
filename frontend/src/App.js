@@ -45,6 +45,7 @@ function App() {
         <div className="row">
           <div className="col-md-12">
             <form className="form-group" method="POST" onSubmit={handleSubmit}>
+              <label for="percent">Enter your Article here :</label>
               <input
                 type="textarea"
                 className="form-control"
@@ -52,6 +53,7 @@ function App() {
                 name="text"
                 onChange={handleTextChange}
               />
+              <label for="percent">Percentage of text you want to retain :</label>
               <input
                 type="text"
                 className="form-control"
